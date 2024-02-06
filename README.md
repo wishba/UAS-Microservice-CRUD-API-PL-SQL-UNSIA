@@ -58,3 +58,7 @@ Anggota Kelompok :
 -   Jika memasukan password
 
     ![dengan password](screenshot/dengan%20password.png)
+
+## Contoh Hasil Trigger Log Data
+
+![log](screenshot/log.png)
