@@ -23,7 +23,7 @@ Anggota Kelompok :
 3. Jalankan command `pip install psycopg2` dan `pip install python-dotenv`
 4. Jalankan pgAdmin dan buat database bernama `users`
 5. Pada database users buka psql tool dan input command `CREATE EXTENSION pgcrypto;` untuk install ekstensi pgcrypto
-6. Pada database users buka query tool dan masukan `user_encrypt.sql` untuk membuat table data_user dan membuat fungsi encrypt_data untuk fitur enkripsi aes256
+6. Pada database users buka query tool dan masukan `user.sql` untuk membuat table data_user, membuat fungsi enkripsi aes256, dan membuat fungsi trigger log data
 7. Buka `.env.example` lalu sesuaikan code didalamnya. Setelah itu rename file menjadi `.env`. File ini berisikan kredensial login user manager api dan database
 
 ## Cara menjalankan program user manager API
