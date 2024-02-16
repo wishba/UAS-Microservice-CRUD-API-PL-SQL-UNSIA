@@ -24,7 +24,7 @@ Anggota Kelompok :
 
 ### 1. ANALISIS KEBUTUHAN
 
--   Tujuan: Sistem ini bertujuan untuk mengelola pengguna dengan operasi CRUD (Create, Read, Update, Delete) Python, PostgreSQL, enkripsi AES128, dan Datalog.
+-   Tujuan: Sistem ini bertujuan untuk mengelola pengguna dengan operasi CRUD (Create, Read, Update, Delete) Python, PostgreSQL, enkripsi AES256, dan Datalog.
 
 -   Fitur:
 
@@ -41,7 +41,7 @@ Anggota Kelompok :
     -   PostgreSQL 12 atau lebih tinggi
     -   Postman
     -   Python Library untuk PostgreSQL (psycopg2)
-    -   Python extension untuk enkripsi AES128 (pgcrypto)
+    -   Python extension untuk enkripsi AES256 (pgcrypto)
     -   Datalog engine (Datalog-Python)
 
 -   Batasan:
@@ -61,7 +61,7 @@ Anggota Kelompok :
 
 -   Setiap microservice akan terhubung ke database PostgreSQL.
 
--   Data pengguna akan dienkripsi dengan AES128 sebelum disimpan di database.
+-   Data pengguna akan dienkripsi dengan AES256 sebelum disimpan di database.
 
 -   Datalog akan digunakan untuk melacak perubahan data pengguna.
 
@@ -116,7 +116,7 @@ Microservice Pendaftara Data Pengguna:
 
 -   Insert data
 -   Memvalidasi new data
--   Menyimpan data users di database PostgreSQL dengan enkripsi AES128.
+-   Menyimpan data users di database PostgreSQL dengan enkripsi AES256.
 
 #### B. READ
 
@@ -144,7 +144,7 @@ Microservice Delete Data Pengguna:
 
 -   Menangani operasi Delete pada data pengguna.
 -   Memvalidasi data pengguna.
--   Menyimpan data pengguna di database PostgreSQL dengan enkripsi AES128.
+-   Menyimpan data pengguna di database PostgreSQL dengan enkripsi AES256.
 -   Mencatat riwayat perubahan data di Datalog.
 
 Contoh Pengaplikasian Enkripsi AES256
