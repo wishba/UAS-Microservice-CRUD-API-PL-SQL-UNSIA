@@ -20,6 +20,8 @@ Anggota Kelompok :
 
 ## Dokumentasi berdasarkan SDLC Waterfall
 
+![waterfall](screenshot/Metode-SDLC-Waterfall.png)
+
 ### 1. ANALISIS KEBUTUHAN
 
 -   Tujuan: Sistem ini bertujuan untuk mengelola pengguna dengan operasi CRUD (Create, Read, Update, Delete) Python, PostgreSQL, enkripsi AES128, dan Datalog.
